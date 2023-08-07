@@ -1,0 +1,12 @@
+Lecture - 11 Autofac done.
+Lecture - 12 (15 - 33) Serilog Configuration.
+Lecturer - 18 (1:38:00) {Infrastructure Class Library Project Add} continue Done
+Lecturer - 19 (0:22:00) migration apply hoy nah.
+
+
+
+POCO class:
+Je class onno class inherit nah kore
+
+
+dotnet ef migrations add AddCourseTable --project FirstDemo.Web --context ApplicationDbContext
