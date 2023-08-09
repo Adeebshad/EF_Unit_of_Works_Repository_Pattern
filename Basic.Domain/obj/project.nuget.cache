@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FLe4pAjz4es9JQXd1HdbUIE6C57+PzDYH+bYNM1noBZgUZ5CCKakajEm0waww023bMKdux1f9x32WOHwHGYyYA==",
+  "dgSpecHash": "7i8Z2513+DbTRoVS3u7YXk9uU2WINzaFabBL1l7wqSK7zlA76+0PtUNw/Py0TGSZahPasT8+YaW6l+iH6EDM3g==",
   "success": true,
-  "projectFilePath": "E:\\Adeeb\\Unit_works_Repository\\Basic\\Basic.Domain\\Basic.Domain.csproj",
+  "projectFilePath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

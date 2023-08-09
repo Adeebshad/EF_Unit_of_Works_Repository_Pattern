@@ -3692,19 +3692,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\adeeb.sil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Adeeb\\Unit_works_Repository\\Basic\\Basic.WebApi\\Basic.WebApi.csproj",
+      "projectUniqueName": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.WebApi\\Basic.WebApi.csproj",
       "projectName": "Basic.WebApi",
-      "projectPath": "E:\\Adeeb\\Unit_works_Repository\\Basic\\Basic.WebApi\\Basic.WebApi.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\Adeeb\\Unit_works_Repository\\Basic\\Basic.WebApi\\obj\\",
+      "projectPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.WebApi\\Basic.WebApi.csproj",
+      "packagesPath": "C:\\Users\\adeeb.sil\\.nuget\\packages\\",
+      "outputPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adeeb.sil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3718,11 +3718,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Adeeb\\Unit_works_Repository\\Basic\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj": {
-              "projectPath": "E:\\Adeeb\\Unit_works_Repository\\Basic\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj"
+            "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj": {
+              "projectPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj"
             },
-            "E:\\Adeeb\\Unit_works_Repository\\Basic\\Basic.Domain\\Basic.Domain.csproj": {
-              "projectPath": "E:\\Adeeb\\Unit_works_Repository\\Basic\\Basic.Domain\\Basic.Domain.csproj"
+            "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj": {
+              "projectPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj"
             }
           }
         }
@@ -3799,7 +3799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
