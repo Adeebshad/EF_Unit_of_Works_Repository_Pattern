@@ -2,6 +2,39 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Autofac/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/net6.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "6.4.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -751,6 +784,47 @@
     }
   },
   "libraries": {
+    "Autofac/6.4.0": {
+      "sha512": "tkFxl6wAPuwVhrlN8wuNADnd+k2tv4ReP7ZZSL0vjfcN0RcfC9v25ogxK6b03HC7D4NwWjSLf1G/zTG8Bw43wQ==",
+      "type": "package",
+      "path": "autofac/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.6.4.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.xml",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/8.0.0": {
+      "sha512": "nGrXNpQX2FiZpIBydK9cxZnnoqP/cUd3k/53uRERYEqLtWzKtE15R6L+j5q5ax5Rv/+3wAIkOaPePkahfqrwjg==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net5.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -1921,24 +1995,25 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Autofac.Extensions.DependencyInjection >= 8.0.0",
       "Basic.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.13"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adeeb.sil\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj",
+      "projectUniqueName": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj",
       "projectName": "Basic.DataAccesEF",
-      "projectPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj",
-      "packagesPath": "C:\\Users\\adeeb.sil\\.nuget\\packages\\",
-      "outputPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\obj\\",
+      "projectPath": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\adeeb.sil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1952,8 +2027,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj": {
-              "projectPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj"
+            "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj": {
+              "projectPath": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj"
             }
           }
         }
@@ -1968,6 +2043,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.13, )"
@@ -1989,7 +2068,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

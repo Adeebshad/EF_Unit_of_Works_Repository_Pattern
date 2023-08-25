@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj": {}
+    "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj": {}
   },
   "projects": {
-    "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj": {
+    "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj",
+        "projectUniqueName": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj",
         "projectName": "Basic.DataAccesEF",
-        "projectPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj",
-        "packagesPath": "C:\\Users\\adeeb.sil\\.nuget\\packages\\",
-        "outputPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\obj\\",
+        "projectPath": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\Basic.DataAccesEF.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.DataAccesEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adeeb.sil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj": {
-                "projectPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj"
+              "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj": {
+                "projectPath": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.13, )"
@@ -65,21 +69,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj": {
+    "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj",
+        "projectUniqueName": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj",
         "projectName": "Basic.Domain",
-        "projectPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj",
-        "packagesPath": "C:\\Users\\adeeb.sil\\.nuget\\packages\\",
-        "outputPath": "E:\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\obj\\",
+        "projectPath": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\Basic.Domain.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\Adeeb\\Unit_works_Repository\\EF_Unit_of_Works_Repository_Pattern\\Basic.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adeeb.sil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -860,6 +860,7 @@
       },
       "Basic.DataAccesEF/1.0.0": {
         "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
           "Basic.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13"
         },

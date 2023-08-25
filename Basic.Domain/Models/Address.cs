@@ -33,5 +33,6 @@ namespace Basic.Domain.Models
             get;
             set;
         }
+        public Person Person { get; set; }
     }
 }

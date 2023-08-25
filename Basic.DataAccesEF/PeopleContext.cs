@@ -27,5 +27,7 @@ namespace Basic.DataAccesEF
             get;
             set;
         }
+
+      
     }
 }
